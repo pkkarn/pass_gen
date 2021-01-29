@@ -26,7 +26,9 @@ SECRET_KEY = 'p5_k&em$s83y2z=y82%s=ye60dv8gved2c3f(a3#jb15w=o3%v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'passgenpk.herokuapp.com'
+]
 
 
 # Application definition
